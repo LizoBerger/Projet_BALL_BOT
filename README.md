@@ -58,7 +58,7 @@ Ball-Bot/
 - [🛠️ Explication du Pont en H](Documentation/Explication_Pont_H.md)  
 - [🔴 Étude de la lentille pour le laser](Documentation/Etude_Lentille.md)  
 - [📄 Rapport TIPE](Documentation/Rapport_TIPE.pdf)
-- [📄 MCOT TIPE](Documentation/MCOT_BALL_BOT.pdf)
+- [📄 MCOT TIPE](Documentation/MCOT_BALL_BOT_TIPE.pdf)
 
 ---
 
