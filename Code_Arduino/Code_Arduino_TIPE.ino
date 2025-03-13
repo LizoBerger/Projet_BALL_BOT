@@ -22,7 +22,7 @@ int moteur_droit_backward = 10;   // Broche moteur droit (arrière)
 int valeur_phototransistor = A0;  // Broche de lecture du phototransistor
 int luminosite = 0;               // Variable pour stocker l'état de la luminosité
 int laser = 7;                    // Broche pour contrôler le laser
-int seuil = 100;                  // Seuil de luminosité pour activer certaines actions
+int seuil = 100;                  // Seuil de luminosité pour l'immobilisation
 unsigned long time = 0;           // Variable pour gérer le délai pour le laser
 
 void setup() { 
@@ -129,7 +129,7 @@ void executeCommand(char command) {
       break;
 
     case TIR:
-      // Activation du laser, mais seulement après un délai de 10 secondes
+      // Activation du laser avec restriction de 10secs d'intervalle entre 2 tirs
       Serial.print(time);
       if (millis() - time > 10000) {
         digitalWrite(laser, HIGH); // Allumer le laser
