@@ -24,6 +24,31 @@ Reproduction du jeu vidéo **Rocket League®** en version réelle, avec deux voi
 
 ---
 
+## 🔧 Structure du dépôt
+```
+Ball-Bot/
+│
+├── Code_Arduino/
+│   ├── Code_Arduino_TIPE.ino
+│   ├── README.md
+│
+├── Schematics/
+│   ├── Schema_Tinkercad.png
+│
+├── Documentation/
+│   ├── Etude_Lentille.md
+│   ├── Explication_Pont_H.md
+│   ├── Rapport_TIPE.pdf
+│   ├── MCOT_ BALL_BOT_TIPE.pdf
+│
+├── Images/
+│   ├── Photo_Robot.png
+│   ├── Video_Demo.mp4
+│
+└── README.md
+```
+---
+
 ## 📡 Schéma du Circuit  
 ![Schéma Tinkercad](Schematics/Schema_Tinkercad.png)
 
@@ -33,7 +58,7 @@ Reproduction du jeu vidéo **Rocket League®** en version réelle, avec deux voi
 - [🛠️ Explication du Pont en H](Documentation/Explication_Pont_H.md)  
 - [🔴 Étude de la lentille pour le laser](Documentation/Etude_Lentille.md)  
 - [📄 Rapport TIPE](Documentation/Rapport_TIPE.pdf)
-- [MCOT TIPE](Documentation/Mco
+- [📄 MCOT TIPE](Documentation/MCOT_BALL_BOT_TIPE.pdf)
 
 ---
 
